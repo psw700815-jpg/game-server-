@@ -178,7 +178,11 @@
 - **상태 반영:** 요청 처리로 변경된 정보는 서버의 게임 상태에 반영하고, 상태 동기화 패킷을 통해 클라이언트에 전달합니다.
 
 
+
+2026/10/02 [async/await를 활용한 비동기 서버 구현과 다중 접속 처리]
+
 <img width="1278" height="797" alt="image" src="https://github.com/user-attachments/assets/e0a674dc-d364-4471-8684-2970526fcd85" />
+<img width="2047" height="1279" alt="image" src="https://github.com/user-attachments/assets/2026903c-1723-4eb2-8679-5a56b3a773f1" />
 
 
 
