@@ -184,6 +184,10 @@
 <img width="1278" height="797" alt="image" src="https://github.com/user-attachments/assets/e0a674dc-d364-4471-8684-2970526fcd85" />
 <img width="2047" height="1279" alt="image" src="https://github.com/user-attachments/assets/2026903c-1723-4eb2-8679-5a56b3a773f1" />
 
+5주차 실습
+<img width="1641" height="742" alt="스크린샷 2026-10-16 121405" src="https://github.com/user-attachments/assets/f2f50228-4aed-4d3a-bb78-1222e4939e18" />
+
+
 
 
 
