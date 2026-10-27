@@ -26,6 +26,9 @@ namespace BattleArena
         /// <summary>마지막으로 적용한 시퀀스 번호</summary>
         public int LastSeq { get; set; }
 
+        
+        public bool IsLoggedIn { get; private set; }
+
         private readonly Socket _socket;
         private bool _isConnected = true;
 
@@ -108,7 +111,7 @@ namespace BattleArena
                 PlayerId = PlayerId,
                 Message  = $"{Nickname}님, 배틀아레나에 오신 것을 환영합니다!"
             });
-
+            IsLoggedIn = true;
             GameServer.Instance.Broadcast(new NoticePacket
             {
                 Type    = PacketType.PLAYER_IN,
