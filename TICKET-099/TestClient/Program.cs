@@ -152,6 +152,8 @@ namespace BattleArena
             {
                 _udp = new Socket(AddressFamily.InterNetwork,
                                   SocketType.Dgram, ProtocolType.Udp);
+               
+                _udp.Bind(new IPEndPoint(IPAddress.Any, 0));
 
                 _udpServer = new IPEndPoint(IPAddress.Parse(SERVER_IP), StudentConfig.UdpPort);
 
