@@ -122,6 +122,11 @@ namespace BattleArena
                 session.UdpEndPoint = from;
                 Console.WriteLine($"[UDP] {session.Nickname} 주소 등록 : {from}");
             }
+            else if (!session.UdpEndPoint.Equals(from))
+            {
+                // 등록된 주소가 아닌 곳에서 이 ID로 보낸 패킷 (남의 ID 사칭)
+                return;
+            }
 
             // 오래된 패킷은 버립니다.
             // UDP는 순서를 보장하지 않아서 5번보다 6번이 먼저 올 수 있습니다.
