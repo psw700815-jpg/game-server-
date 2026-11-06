@@ -189,6 +189,11 @@
 
 
 
+2026/11/06 erd표 작성
+<img width="3200" height="1920" alt="image" src="https://github.com/user-attachments/assets/d9972bdf-384f-4cb0-8b79-307551ca30cb" />
+
+
+
 
 
 
